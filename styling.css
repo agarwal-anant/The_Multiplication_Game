@@ -1,0 +1,139 @@
+@font-face {
+    font-family: myfont;
+    src: url(SaucerBB.ttf);
+}
+html{
+    background-image: url("bg.jpg");
+    /*background-color: aliceblue;*/
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-family: myfont;
+    text-shadow: -5px 5px 15px rgb(0,0,0,0.3);
+    font-size: 60px;
+    background-color: white ;
+    /*background: radial-gradient(circle,#fff,#b8845a);*/
+    
+}
+#container{
+    height: 500px;
+    width: 600px;
+    background-color: #F8F0E3;
+    padding: 20px;
+    margin: auto auto;
+    box-shadow: -25px 25px 20px rgba(255, 255, 255, 0.3)
+
+}
+#score{
+    background-color: white;
+    padding: 10px;
+    width: 60px;
+    position: absolute;
+    left: 990px;
+    box-shadow: 4px 4px 20px rgba(0,0,0,0.3);
+    transition:  0.3s ease;
+}
+#score:hover{
+    transform: scale(1.2);
+}
+#correct{
+    position: absolute;
+    font-size: 20px;
+    color: green;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 730px;
+    display: none;  
+}
+#wrong{
+    position: absolute;
+    font-size: 20px;
+    color: red;
+    display: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 730px;
+}
+#questions{
+    width: 500px;
+    height: 160px;
+    background-color: #F8F0E3;
+    margin:50px auto 10px auto  ;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+    font-size: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: center;
+    
+}
+#instructions{
+    width: 500px;
+    height: 50px;
+    background-color: antiquewhite;
+    margin: 56px auto 0px auto;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);;
+}
+#choices{
+    height: 100px;
+    width: 500px;
+    margin: 5px auto;
+    margin-top: 28px;
+}
+.box{
+    width: 90px;
+    height: 90px;
+    background-color: antiquewhite;
+    float: left;
+    margin-right: 46px;
+    align-items: center;
+    box-shadow: 10px 0px 20px rgba(0,0,0,0.3);;
+    transition: 0.3s ease;
+    text-align: center;
+    font-size: 30px;
+    line-height: 85px;
+}
+.box:hover{
+    transform: scale(1.1);
+    background-color: rgb(204, 181, 151);
+}
+#box4{
+    margin-right: 0px;
+}
+#startreset{
+    width:auto;
+    height: auto;
+    margin-top: 15px;
+    position: absolute;
+    left: 720px;
+    background-color: rgb(227, 190, 148);
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+#startreset:hover{
+    transform: scale(1.1);
+}
+#timer{
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 890px;
+    margin-top: 25px;
+    font-size: 18px;
+    display: none;
+}
+#gameover{
+    height: 260px;
+    width: 550px;
+    background: linear-gradient(#afa18d,#cb9f68);
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 220px;
+    left: 480px;
+    z-index: 2;
+    display: none;
+
+}
