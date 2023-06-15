@@ -36,5 +36,3 @@ Contributions to the Multiplication Game are welcome! If you have any ideas for 
 The Multiplication Game is released under the [MIT License](LICENSE). You are free to modify and distribute the game as per the terms of this license.
 
 Enjoy the game and happy multiplication practice!
-
-\-- The Multiplication Game Team
